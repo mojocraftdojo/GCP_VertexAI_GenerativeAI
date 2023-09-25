@@ -1,5 +1,4 @@
-# GCP_VertexAI_GenerativeAI
- Creating and training LLMs-powered Generative AI models via Google Vertex AI SDK
+# Creating and training LLMs-powered Generative AI models via Google Vertex AI SDK
  
  
  This Jupyter notebook shows several working examples just to demonstrate how to use vertex API to interact with google cloud and run generative AI apps powered by pre-trained large language models (LLMs). The list goes on and not just limited to the examples here. On top of language models, you can also run image models, video models and Speech models via corresponding APIs. 
@@ -19,12 +18,13 @@ For programmable way to connect and run ML models on GCP, you need to install Go
  
  --- gcloud config set compute/zone us-central1-a
  
- Install python libraries
+
+## Install python libraries
  
 	pip install google-cloud-aiplatform --upgrade
 
- Import Vertex AI SDK
+## Import Vertex AI SDK
  
  	from google.cloud import aiplatform
  	
- Run the examples 
+## Run the listed examples 
